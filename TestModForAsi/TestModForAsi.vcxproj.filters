@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="script.cpp" />
+    <ClCompile Include="keyboard.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="script.h" />
+    <ClInclude Include="inc\enums.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\main.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\nativeCaller.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\natives.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\types.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="keyboard.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="inc">
+      <UniqueIdentifier>{bbc50b3c-8927-4b84-9f19-96993e865336}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ilb">
+      <UniqueIdentifier>{a5addd2e-e7b9-4e59-a964-a0153fa7aee1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="lib\ScriptHookRDR2.lib">
+      <Filter>ilb</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
